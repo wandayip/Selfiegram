@@ -10,11 +10,11 @@
 		E929E6391C3F692800775A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E929E6381C3F692800775A61 /* main.m */; };
 		E929E63C1C3F692800775A61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E929E63B1C3F692800775A61 /* AppDelegate.m */; };
 		E929E63F1C3F692800775A61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E929E63E1C3F692800775A61 /* ViewController.m */; };
-		E929E6421C3F692800775A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E6401C3F692800775A61 /* Main.storyboard */; };
-		E929E6441C3F692800775A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E929E6431C3F692800775A61 /* Assets.xcassets */; };
 		E929E6471C3F692800775A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E6451C3F692800775A61 /* LaunchScreen.storyboard */; };
 		E929E6521C3F692900775A61 /* SelfiegramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E929E6511C3F692900775A61 /* SelfiegramTests.m */; };
 		E929E65D1C3F692900775A61 /* SelfiegramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E929E65C1C3F692900775A61 /* SelfiegramUITests.m */; };
+		E929E66B1C3F6BBD00775A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E66A1C3F6BBD00775A61 /* Main.storyboard */; };
+		E929E66D1C3F6BCE00775A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E929E66C1C3F6BCE00775A61 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		E929E63B1C3F692800775A61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E929E63D1C3F692800775A61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E929E63E1C3F692800775A61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E929E6411C3F692800775A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E929E6431C3F692800775A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E929E6461C3F692800775A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E929E6481C3F692800775A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E929E64D1C3F692900775A61 /* SelfiegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,8 @@
 		E929E6581C3F692900775A61 /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E929E65C1C3F692900775A61 /* SelfiegramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfiegramUITests.m; sourceTree = "<group>"; };
 		E929E65E1C3F692900775A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E929E66A1C3F6BBD00775A61 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E929E66C1C3F6BCE00775A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				E929E63B1C3F692800775A61 /* AppDelegate.m */,
 				E929E63D1C3F692800775A61 /* ViewController.h */,
 				E929E63E1C3F692800775A61 /* ViewController.m */,
-				E929E6401C3F692800775A61 /* Main.storyboard */,
-				E929E6431C3F692800775A61 /* Assets.xcassets */,
+				E929E66A1C3F6BBD00775A61 /* Main.storyboard */,
+				E929E66C1C3F6BCE00775A61 /* Assets.xcassets */,
 				E929E6451C3F692800775A61 /* LaunchScreen.storyboard */,
 				E929E6481C3F692800775A61 /* Info.plist */,
 				E929E6371C3F692800775A61 /* Supporting Files */,
@@ -246,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E929E66B1C3F6BBD00775A61 /* Main.storyboard in Resources */,
+				E929E66D1C3F6BCE00775A61 /* Assets.xcassets in Resources */,
 				E929E6471C3F692800775A61 /* LaunchScreen.storyboard in Resources */,
-				E929E6441C3F692800775A61 /* Assets.xcassets in Resources */,
-				E929E6421C3F692800775A61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E929E6401C3F692800775A61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E929E6411C3F692800775A61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E929E6451C3F692800775A61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
